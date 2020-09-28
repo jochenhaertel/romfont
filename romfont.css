@@ -1,0 +1,738 @@
+/*Allgemeine Typo*/
+
+@font-face {
+    font-family: "Myriad W0133 Lt";
+    src: url("MyriadPro33.eot?#iefix") format("eot"), url("MyriadPro33.woff2") format("woff2"), url("MyriadPro33.woff") format("woff"), url("MyriadPro33.ttf") format("truetype"), url("MyriadPro33.svg#MyriadPro33") format("svg");
+}
+@font-face {
+    font-family: "Myriad W0150 Lt";
+    src: url("MyriadPro50.eot?#iefix") format("eot"), url("MyriadPro50.woff2") format("woff2"), url("MyriadPro50.woff") format("woff"), url("MyriadPro50.ttf") format("truetype"), url("MyriadPro50.svg#MyriadPro50") format("svg");
+}
+
+@font-face {
+    font-family: "Rom", sans-serif;
+    src: url("Rom-Regular.eot?#iefix") format("eot"), url("Rom-Regular.woff") format("woff"), url("Rom-Regular.woff2") format("woff2"), url("Rom-Regular.ttf") format("truetype"), url("Rom-Regular.svg#Rom-Regular") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family: "Rom", sans-serif;
+    src: url("Rom-Italic.eot?#iefix") format("eot"), url("Rom-Italic.woff") format("woff"), url("Rom-Italic.woff2") format("woff2"), url("Rom-Italic.ttf") format("truetype"), url("Rom-Italic.svg#Rom-Italic") format("svg");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: "Rom", sans-serif;
+    src: url("Rom-Medium.eot?#iefix") format("eot"), url("Rom-Medium.woff") format("woff"), url("Rom-Medium.wof2f") format("woff2"), url("Rom-Medium.ttf") format("truetype"), url("Rom-Medium.svg#Rom-Medium") format("svg");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Rom", sans-serif;
+    src: url("Rom-Bold.eot?#iefix") format("eot"), url("Rom-Bold.woff") format("woff"), url("Rom-Bold.woff2") format("woff2"), url("Rom-Bold.ttf") format("truetype"), url("Rom-Bold.svg#Rom-Bold") format("svg");
+    font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: "Rom", sans-serif;
+    src: url("Rom-BoldItalic.eot?#iefix") format("eot"), url("Rom-BoldItalic.woff") format("woff"), url("Rom-BoldItalic.woff2") format("woff2"), url("Rom-BoldItalic.ttf") format("truetype"), url("Rom-BoldItalic.svg#Rom-BoldItalic") format("svg");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+    font-family: "Lineart";
+    src: url("Lineart.eot?#iefix") format("embedded-opentype"), url("Lineart.woff") format("woff"), url("Lineart.ttf") format("truetype"), url("Lineart.svg") format("svg");
+}
+
+body {
+    font-family: "Rom",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    hyphens: auto;
+}
+
+p {
+	margin: 0 0 0.5em;
+}
+
+.text-primary, text-block emphasised {
+	font-size: 1.25em;
+    font-family: "Rom",sans-serif;
+    color: #333333;
+}
+
+em, blockquote {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+strong {
+    font-family: "Rom", sans-serif;
+    font-weight: 700;
+	
+}
+h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Rom",sans-serif;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+h1 {
+    font-family: "Rom",sans-serif;
+    font-weight: 400;
+	margin-top: 0.75em;
+    margin-bottom: 0.25em;
+}
+h3 {
+	font-weight: 700;
+}
+.important {
+	color: #931322;
+}
+
+.emphasised, div.reference-detail-view .emphasised {
+    font-size: 1.25em;
+    line-height: 135%;
+}
+
+/*
+blockquote {
+    color: #003463;
+    font-family: Myriad W01 smBd;
+    margin-left: 1rem;
+}
+*/
+
+/*BUs*/
+.figure-caption {
+    color: #666;
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin-top: -0.5em;
+    line-height: 1.143em;
+}
+
+/*Bullet-Listen*/
+
+.ce-bodytext > ul, .ce-bodytext ul {
+    list-style: outside none disc;
+    padding-left: 1em;
+}
+
+/*Spalte rechts*/
+/*
+.col-menu ul, .col-menu .contenttable {
+    font-family: "Myriad W01 SmBd",sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 0.5rem;
+}
+.col-menu ul li {
+	padding-bottom: 0.5rem;
+}
+.col-menu .contenttable tr {
+    display: block;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+}
+.col-menu td {
+	vertical-align: top;
+}
+*/
+.col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 ul, 
+.col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 .contenttable, 
+.col-xl-3.col-lg-3.col-md-3.col-sm-12.col-xs-12 ul, 
+.col-xl-3.col-lg-3.col-md-3.col-sm-12.col-xs-12 .contenttable, 
+.col-xs-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 ul, 
+.col-xs-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 .contenttable,
+.col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 ul, 
+.col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 .contenttable {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 130%;
+    margin-bottom: 0.5rem;
+}
+.col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 ul li,
+.col-xl-3.col-lg-3.col-md-3.col-sm-12.col-xs-12 ul li,
+.col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 ul li,
+.col-xs-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 ul li {
+	padding-bottom: 0.5rem;
+}
+.col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 .contenttable tr,
+.col-xl-3.col-lg-3.col-md-3.col-sm-12.col-xs-12 .contenttable tr,
+.col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 .contenttable tr,
+.col-xs-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 .contenttable tr {
+    display: block;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+}
+.col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 td,
+.col-xl-3.col-lg-3.col-md-3.col-sm-12.col-xs-12 td,
+.col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 td,
+.col-xs-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 td {
+	vertical-align: top;
+}
+
+/*  col-xs-12.col-sm-12.col-md-12.col-lg-3.col-xl-3 */
+/* .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-xs-12 */
+
+/* Tabellen  */
+
+tr {
+    border-bottom: 1px solid #aebfc9; /* Korrigieren: nicht bei allen Listen! */
+}
+td {
+	line-height: 1.25em;
+    padding-top: 0.25em;
+    vertical-align: top;
+    padding-right: 0.5em;
+}
+th {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Icons */
+
+.fa {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: "Lineart";
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+a.mail i::before, a[href^="javascript:linkTo_UnCryptMailto"] i::before {
+    content: "\200A";
+    /*font-size: 1.25em;*/
+    line-height: 0;
+    /*vertical-align: -3px;*/
+	color:  #618197;
+	   padding-right: 5px;
+    vertical-align: -0.05em;
+}
+
+a.external-link-new-window i::before, a[target="_blank"] i::before {
+    /*content: " ";*/
+    content: none;
+    font-size: inherit;
+}
+a.external-link-new-window::before, a[target="_blank"]::before {
+    content: "\202F";
+    /*content: none;*/
+    font-family: "Lineart";
+    font-size: 67%;
+	color:  #618197;
+    /*vertical-align: -3px;*/
+}
+a.external-link i::before, a[target="_blank"] i::before {
+    /*content: " ";*/
+    content: none;
+    font-size: inherit;
+}
+a.external-link::before, a[target="_blank"]::before {
+    /*content: "\202F";*/
+    /*content: none;*/
+    content: ""
+    font-family: "Lineart";
+    /*font-size: inherit;*/
+	/*color:  #618197;*/
+    /*vertical-align: -3px;*/
+    font-size: 67%;
+    line-height: 0;
+    padding-right: 0.25em;
+}
+p a.internal-link::after{
+	content: none;
+}
+
+/*a.internal-link {
+    display: block;
+    margin-left: 0.8125em;
+    text-indent: -0.8125em;
+}*/
+
+p a.internal-link::before {
+    color: #618197;
+    content: "";
+    font-family: "Lineart";
+    font-size: 67%;
+    line-height: 0;
+    padding-right: 0.25em;
+}
+
+/*  social media */
+#footer a[target="_blank"]::before {
+    content: "";	
+}
+#footer .col-xs-4.col-sm-4.col-md-4.col-lg-4.col-xl-4 {
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#flexslider-0da9abd6 .flexslider-caption::after,
+#flexslider-d324676c .flexslider-caption::after,
+#c1060 .internal-link::after {
+    color: #618197;
+    content: "";
+    font-family: "Lineart";
+    /*font-size: 67%;*/
+    line-height: 0;
+    display: inherit;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: right;
+}
+#flexslider-0da9abd6 .link_label,
+#flexslider-d324676c .link_label {
+	padding-bottom: 0;
+}
+
+/*
+p a.internal-link::before {
+    content: "\202F";
+    content: "";
+    font-family: "Lineart";
+    font-size: inherit;
+	color:  #618197;
+    vertical-align: -3px;
+    line-height: 0;
+}
+*/
+
+
+p a.internal-link::before:hover {
+	text-decoration: none;
+}
+
+table.contenttable tr td .label, table.contenttable tr td .icon {
+	font-family: "Lineart";
+	color: #618197;
+	padding-right: 0.5em;
+	vertical-align: text-top;
+	font-size: 1.25rem;
+	line-height: 1.1em;
+}
+
+span.icon {
+    font-family: "Lineart";
+    vertical-align: -2px;
+}
+
+.navbar-toggler .pull-right .hidden-lg-up {
+	/* Hamburger */
+}
+
+/* --- 200723 Kompetenzen Überblick Icons --- */
+
+#flexslider-13c553cb .rom-icon {
+	font-size: 48px;
+}
+
+
+
+/*Menu*/
+
+@media (min-width: 544px) 
+{
+header > div.navbar-fixed-top ul.navbar-nav > li ul.dropdown-menu {
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.286);
+}
+}
+
+header > div.navbar-fixed-top ul.navbar-nav > li ul.dropdown-menu li a.dropdown-item:hover, header > div.navbar-fixed-top ul.navbar-nav > li ul.dropdown-menu li a.dropdown-item.active {
+    background: #e8ebee none repeat scroll 0 0;
+}
+
+/*Home Teaser etc*/
+.video_wrapper .video-caption-link {
+    /*color: #003463;*/
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: 8px 12px;
+}
+
+/* Blaue Teaser */
+.teaser-blue-block .csc-textpic-text {
+    padding: 5px 15px 25px;
+}
+.teaser-blue-block .csc-textpic-text p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*Referenzen Kachelwand*/
+#page_187 .tx-designteam-references div.references_teaser div.text-content h2 {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+
+}
+
+
+
+
+/*Referenzen Verweis*/
+
+.col-main div.references_teaser div.text-content h2 {
+    font-size: 1.125rem;
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+	margin-bottom: 0.5em;
+}
+.col-main div.references_teaser div.text-content h3, 
+#page_187 .tx-designteam-references div.references_teaser div.text-content h3 {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.references_teaser {
+   /* max-width: 260px; */
+}
+
+
+/*Headerbilder*/
+
+/*.col-header .ce-media {
+    height: 300px;
+    width: auto;
+}
+.col-header .ce-media picture {
+    display: block;
+    height: auto;
+    position: absolute;
+    top: -50%;
+    width: 100%;
+}*/
+
+/*Historie*/
+
+#u17808 .tl-storyslider .tl-headline {
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.111;
+}
+#u17808 .tl-storyslider .tl-text-content, #u17808 .tl-storyslider .tl-text-content p {
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 1.25;
+}
+#u17808 .tl-storyslider .tl-headline-date {
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: initial;
+}
+
+/*Slider Kompetenzen provisorisch*/
+#flexslider-2024676c .round-icon {
+	display: none;
+}
+
+#flexslider-2024676c .flex-control-nav li {
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 155px;
+    height: 58px;
+}
+
+/*Slider Karriere*/
+.flexslider-caption .text-position- {
+	padding: 0 10px 5px;
+}
+
+.flexslider-caption.text-position- > p {
+	padding-bottom: 0px;
+}
+
+div.flexslider.careerslider ul.slides > li .flexslider-caption-outer-wrapper .flexslider-caption-inner-wrapper .flexslider-image-caption {
+    background-color: rgba(156, 151, 111, 0.9);
+    right: 70px;
+    text-align: left;
+    width: 270px;
+    z-index: 30;
+}
+
+div.flexslider.careerslider ul.slides > li .flexslider-caption-outer-wrapper .flexslider-caption-inner-wrapper .flexslider-image-caption .link_label {
+    color: white;
+    font-size: 0.875rem;
+    line-height: 1.25em;
+    padding: 5px 14px 0;
+}
+
+div.flexslider.careerslider {
+    margin-bottom: 0;
+}
+
+/*Header Ausbildung*/
+.img-fluid.m-b-1.center-block {
+    margin-bottom: 0 !important;
+}
+
+
+/*Organigramm Unternehmensstruktur*/
+
+iframe {
+    border: medium none;
+}
+
+/*Legende*/
+
+div.imagelegenditem .round-letter span {
+    background: white none repeat scroll 0 0;
+    border: 2px solid #618197;
+    border-radius: 20px;
+    display: block;
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 22px;
+    line-height: 1.25em;
+    padding: 1px 0px 0px 0px;
+    text-align: center;
+    width: 22px;
+}
+
+div.imagelegenditem .saving-potential-container {
+    margin-bottom: 1rem;
+    margin-left: 30px;
+}
+
+div.imagelegenditem h3 {
+    border-top: 3px solid #8aa1b5;
+    margin-top: 1rem;
+    padding-top: 14px;
+}
+
+/*  Start Slideshow Background  */
+
+.flexslider-outer-wrapper.tabslider_big, .flexslider-outer-wrapper.tabslider_small {
+    /*background-color: #003463;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#003463+0,003463+90,8aa1b5+91,8aa1b5+100 */
+background: #003463; /* Old browsers */
+background: -moz-linear-gradient(top,  #003463 0%, #003463 90%, #8aa1b5 91%, #8aa1b5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #003463 0%,#003463 90%,#8aa1b5 91%,#8aa1b5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #003463 0%,#003463 90%,#8aa1b5 91%,#8aa1b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003463', endColorstr='#8aa1b5',GradientType=0 ); /* IE6-9 */
+
+}
+/* Notruf */
+.emergency-call strong {
+    color: white !important;
+}
+
+/*  Suchfenster  */
+#bd-search-nav {
+    box-shadow: 4px 4px 8px rgba(68,68,68,0.6);
+    width: 270px;
+    background: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.container.navbar-default .fa {
+    font-family: Lineart !important;
+}
+.fa-search::before {
+    /*content: "\f002";*/
+    font-family: "Lineart";
+    content: "\EA77";
+    color: #618097;
+    padding-left: 1px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+.fa-navicon::before, .fa-reorder::before, .fa-bars::before {
+	content: "\EA80";
+}
+
+@media (min-width: 768px) {
+#bd-search-nav {
+    box-shadow: 4px 4px 8px rgba(68,68,68,0.6);
+    width: 370px;
+    background: none;
+    margin-top: 20px;
+    position: absolute;
+    right: 165px;
+    top: 10px;
+} }
+
+/*  Tab-Slider Kompetenzen neu */
+
+div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li {
+	/*width: 120px;*/
+	/* 200721 – für 10 Kompetenzen */
+	width: 9%;
+}
+
+div.flexslider.tabslider_big .flexslider-controls .flex-control-nav li .tabslider_small_icon, div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li .tabslider_small_icon, div.flexslider.careerslider .flexslider-controls .flex-control-nav li .tabslider_small_icon {
+    background: white none repeat scroll 0 0;
+    border: 2px solid #618097;
+    border-radius: 100px;
+    color: #618097;
+    display: inline-block;
+    height: 50px;
+    padding-top: 8px;
+    width: 50px;
+}
+
+div.flexslider.tabslider_big .flexslider-controls .flex-control-nav li .tabslider_small_icon::before, div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li .tabslider_small_icon::before, div.flexslider.careerslider .flexslider-controls .flex-control-nav li .tabslider_small_icon::before {
+    font-size: 32px;
+}
+
+div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li .tabslider_small_icon:hover, div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li .tabslider_small_icon:active {
+    background-color: #618097 !important;
+    color: white !important;
+}
+
+div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li,
+div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li:hover {
+	color: transparent;
+}
+
+div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li span.slide-name {
+	/*width: 170px;
+	left: -20px;*/
+	/* 200721 – für 10 Kompetenzen */
+	width: 200%;
+    left: -50%;
+    font-size: 1rem;
+    line-height: 1.2;
+    word-break: break-word;
+}
+
+/*  Notrufnummer Telefon-Verlinkung  */
+
+.emergency-call a[href^="tel"] {
+    text-decoration: none;
+}
+
+/* F&E Slider */
+
+
+#page_189 .flex-control-nav li {
+	display: none;
+}
+
+/* Werte */
+
+.werte {
+	background-color: #e8f0f4;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.werte.vision h3, .werte.mission h3 {
+    margin-top: 0;
+	background-color: #003463;
+}
+.werte.werte1 h3 {
+    margin-top: 0;
+    background-color: #618097;
+}
+.werte.werte2 h3 {
+    margin-top: 0;
+	background-color: #b7b391;
+}
+.werte.werte3 h3 {
+    margin-top: 0;
+	background-color: #638a82;
+}
+.werte.werte4 h3 {
+    margin-top: 0;
+	background-color: #876362;
+}
+
+.werte p {
+	font-size: 20px;
+    padding: 10px 10px 15px;
+    margin-bottom: 0px;
+	background-color: #e8f0f4;
+}
+.werte h3 {
+    font-family: "Rom", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    hyphens: none;
+    color: white;
+    padding: 20px 10px 15px;
+}
+@media (min-width: 992px) {
+	.werte.werte1,.werte.werte2,.werte.werte3,.werte.werte4 {
+		min-height: 520px;
+	}	
+	}
+@media (min-width: 1200px) {
+	.werte.werte1,.werte.werte2,.werte.werte3,.werte.werte4 {
+		min-height: 465px;
+	}	
+	}
+
+/*  200814 Karriere Slider  Textboxen deaktiviert  */
+
+.flexslider-caption-outer-wrapper {
+    display: none;
+}
+
+header > div.navbar-fixed-top ul.navbar-nav {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 40px;
+}
+
+.dropdown-item {
+	font-weight: 500;
+}
+
+div.flexslider.tabslider_big .flexslider-controls .flex-control-nav li, div.flexslider.tabslider_small .flexslider-controls .flex-control-nav li, div.flexslider.careerslider .flexslider-controls .flex-control-nav li {
+    font-family: "Rom", sans-serif;
+    font-weight: 700;
+	
+}
+
+.breadcrumb, header > div.navbar-fixed-top .navbar-user, footer .footer-section {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+footer .footer-section {
+    font-family: "Rom", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
