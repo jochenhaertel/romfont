@@ -11,32 +11,32 @@
 
 @font-face {
     font-family: "Rom", sans-serif;
-    src: url("Rom-Regular.eot?#iefix") format("eot"), url("Rom-Regular.woff") format("woff"), url("Rom-Regular.woff2") format("woff2"), url("Rom-Regular.ttf") format("truetype"), url("Rom-Regular.svg#Rom-Regular") format("svg");
+    src: url("fonts/Rom-Regular.eot?#iefix") format("eot"), url("fonts/Rom-Regular.woff") format("woff"), url("fonts/Rom-Regular.woff2") format("woff2"), url("fonts/Rom-Regular.ttf") format("truetype"), url("fonts/Rom-Regular.svg#Rom-Regular") format("svg");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
     font-family: "Rom", sans-serif;
-    src: url("Rom-Italic.eot?#iefix") format("eot"), url("Rom-Italic.woff") format("woff"), url("Rom-Italic.woff2") format("woff2"), url("Rom-Italic.ttf") format("truetype"), url("Rom-Italic.svg#Rom-Italic") format("svg");
+    src: url("fonts/Rom-Italic.eot?#iefix") format("eot"), url("fonts/Rom-Italic.woff") format("woff"), url("fonts/Rom-Italic.woff2") format("woff2"), url("fonts/Rom-Italic.ttf") format("truetype"), url("fonts/Rom-Italic.svg#Rom-Italic") format("svg");
 	font-weight: 400;
 	font-style: italic;
 }
 
 @font-face {
     font-family: "Rom", sans-serif;
-    src: url("Rom-Medium.eot?#iefix") format("eot"), url("Rom-Medium.woff") format("woff"), url("Rom-Medium.wof2f") format("woff2"), url("Rom-Medium.ttf") format("truetype"), url("Rom-Medium.svg#Rom-Medium") format("svg");
+    src: url("fonts/Rom-Medium.eot?#iefix") format("eot"), url("fonts/Rom-Medium.woff") format("woff"), url("fonts/Rom-Medium.wof2f") format("woff2"), url("fonts/Rom-Medium.ttf") format("truetype"), url("fonts/Rom-Medium.svg#Rom-Medium") format("svg");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Rom", sans-serif;
-    src: url("Rom-Bold.eot?#iefix") format("eot"), url("Rom-Bold.woff") format("woff"), url("Rom-Bold.woff2") format("woff2"), url("Rom-Bold.ttf") format("truetype"), url("Rom-Bold.svg#Rom-Bold") format("svg");
+    src: url("fonts/Rom-Bold.eot?#iefix") format("eot"), url("fonts/Rom-Bold.woff") format("woff"), url("fonts/Rom-Bold.woff2") format("woff2"), url("fonts/Rom-Bold.ttf") format("truetype"), url("fonts/Rom-Bold.svg#Rom-Bold") format("svg");
     font-weight: 700;
 	font-style: normal;
 }
 @font-face {
     font-family: "Rom", sans-serif;
-    src: url("Rom-BoldItalic.eot?#iefix") format("eot"), url("Rom-BoldItalic.woff") format("woff"), url("Rom-BoldItalic.woff2") format("woff2"), url("Rom-BoldItalic.ttf") format("truetype"), url("Rom-BoldItalic.svg#Rom-BoldItalic") format("svg");
+    src: url("fonts/Rom-BoldItalic.eot?#iefix") format("eot"), url("fonts/Rom-BoldItalic.woff") format("woff"), url("fonts/Rom-BoldItalic.woff2") format("woff2"), url("fonts/Rom-BoldItalic.ttf") format("truetype"), url("fonts/Rom-BoldItalic.svg#Rom-BoldItalic") format("svg");
 	font-weight: 700;
 	font-style: italic;
 }
